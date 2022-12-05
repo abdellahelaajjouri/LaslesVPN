@@ -1,0 +1,9 @@
+export { default as Banner } from "./banner/Banner";
+export { default as Features } from "./features/Features";
+export { default as Plans } from "./plans/Plans";
+export { default as Testimonials } from "./testimonials/Testimonials";
+export { default as Footer } from "./footer/Footer";
+export { default as Home } from "./home/Home";
+export { default as Infos } from "./infos/Infos";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Network } from "./network/Network";
