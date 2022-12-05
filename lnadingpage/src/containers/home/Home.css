@@ -1,0 +1,98 @@
+.Lasles__Home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: var(--font-family);
+  font-style: normal;
+}
+.Lasles__Home-content {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  text-align: start;
+}
+.Lasles__Home-content__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 20px;
+
+  color: var(--color-text);
+}
+.Lasles__Home-content__title span {
+  font-weight: bold;
+}
+.Lasles__Home-content__text {
+  margin-bottom: 50px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+}
+.Lasles__Home-hero {
+  width: 50%;
+}
+
+.Lasles__Home-hero img {
+  width: 100%;
+  height: 100%;
+}
+.Lasles__Home-content__button button {
+  background: #f53838;
+  border-radius: 10px;
+
+  padding: 10px 60px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  -webkit-box-shadow: 0px 33px 27px -6px rgba(245, 66, 56, 0.85);
+  box-shadow: 0px 20px 27px -6px rgba(245, 66, 56, 0.85);
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1050px){
+    .Lasles__Home{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 100px;
+    }
+    .Lasles__Home-content{
+        width: 80%;
+    }
+    .Lasles__Home-hero{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width: 550px){
+    .Lasles__Home{
+        gap: 50px;
+    }
+    .Lasles__Home-content__title{
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .Lasles__Home-content__text{
+        font-size: 14px;
+        line-height: 25px ;
+        margin-bottom: 25px;
+
+    }
+    .Lasles__Home-content__button button{
+        padding: 5px 50px;
+    }
+    .Lasles__Home-hero{
+        width: 80%;
+    }
+}
