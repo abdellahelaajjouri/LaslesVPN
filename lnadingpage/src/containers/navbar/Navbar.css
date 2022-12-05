@@ -1,0 +1,134 @@
+.Lasles__navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 6rem;
+
+  font-family: var(--font-family);
+}
+.Lasles__navBar-logo img {
+  width: 149px;
+  height: 36.23px;
+}
+
+.Lasles__navBar-links {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+.Lasles__navBar-links li {
+  margin-left: 2rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: var(--color-subtext);
+
+  line-height: 19px;
+}
+
+.Sign-In {
+  border: none;
+  background-color: transparent;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+  color: var(--color-text);
+
+  line-height: 19px;
+}
+
+.Sign-Up {
+  margin-left: 1rem;
+  padding: 0.8rem 3rem;
+  border: 1px solid var(--btn-bg);
+  border-radius: 50px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--btn-bg);
+  line-height: 19px;
+}
+
+.Lasles__navBar-menu {
+  position: relative;
+  display: none;
+
+  margin-left: 1rem;
+}
+.Lasles__navBar-menu_container-links-buttons button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+
+  background-color: transparent;
+}
+
+.Lasles__navBar-menu__container {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  min-width: 210px;
+  margin-top: 1rem;
+  padding: 2rem;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+
+  background: var(--btn-bg);
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+
+  color: var(--color-bg);
+  text-align: end;
+}
+
+.Lasles__navBar-menu__container-links {
+  list-style: none;
+}
+.Lasles__navBar-menu__container-links li {
+  margin: 1rem 0;
+}
+.Lasles__navBar-menu__container-buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Lasles__navBar-menu__container-buttons .Sign-In {
+  align-self: flex-end;
+  cursor: pointer;
+}
+.Lasles__navBar-menu__container-buttons .Sign-Up {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1050px) {
+  .Lasles__navBar-links {
+    display: none;
+  }
+  .Lasles__navBar-buttons {
+    display: none;
+  }
+  .Lasles__navBar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .Lasles__navBar{
+        padding: 2rem 1rem ;
+    }
+}
