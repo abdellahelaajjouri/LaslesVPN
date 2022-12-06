@@ -1,5 +1,6 @@
 .Lasles__navBar {
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
   padding: 1rem 6rem;
@@ -18,7 +19,7 @@
   list-style: none;
 }
 .Lasles__navBar-links li {
-  margin-left: 2rem;
+  margin-left: 4rem;
 
   font-weight: 400;
   font-size: 16px;

@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  -webkit-box-shadow: 1px 27px 37px -20px rgba(13, 16, 37, 0.55);
+  box-shadow: 1px 27px 37px -20px rgba(13, 16, 37, 0.55);
   font-family: var(--font-family);
 }
 .Lasles__features-hero {
@@ -15,29 +17,36 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+
   width: 40%;
   padding: 0;
 }
 .Lasles__features-content__title {
   color: var(--color-text);
+
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
 }
 .Lasles__features-content__text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+
   color: var(--color-subtext);
+
+  line-height: 30px;
 }
 .Lasles__features-content__list {
   list-style: none;
 }
 .Lasles__features-content__list li {
   display: flex;
-  gap: 30px;
   align-items: center;
+  gap: 30px;
+  
   margin-bottom: 10px;
+
+  font-size: 18px;
 }
 .Lasles__features-content__list li img {
   width: 24px;
@@ -49,6 +58,11 @@
   .Lasles__features-content {
     width: 80%;
   }
+  .Lasles__features-content__text,
+  .Lasles__features-content__list li {
+    font-size: 16px;
+  }
+
   .Lasles__features-hero {
     width: 80%;
     margin: auto;
@@ -64,6 +78,7 @@
     line-height: 30px;
   }
   .Lasles__features-content__text {
-    line-height: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
   }
 }

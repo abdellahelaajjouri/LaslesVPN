@@ -1,0 +1,47 @@
+h1,
+h2,
+h3 {
+  color: var(--color-text);
+}
+p {
+  color: var(--color-subtext);
+}
+.Lasles__plans {
+  text-align: center;
+  font-family: var(--font-family);
+}
+.Lasles__plans-header {
+  margin-bottom: 60px;
+}
+.Lasles__plans-header__title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+}
+.Lasles__plans-header__text {
+  line-height: 30px;
+}
+.Lasles__plans-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1050px) {
+  .Lasles__plans-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  p,
+  li {
+    color: var(--color-subtext);
+    font-size: 1rem;
+  }
+  .Lasles__plans-header__title {
+    font-size: 30;
+    line-height: 40px;
+  }
+  .Lasles__plans-header__text {
+    line-height: 25px;
+  }
+}
