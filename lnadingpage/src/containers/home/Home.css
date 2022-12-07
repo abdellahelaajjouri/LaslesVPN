@@ -4,6 +4,8 @@
   align-items: center;
   gap: 30px;
 
+  padding-top: 100px;
+
   font-family: var(--font-family);
 }
 .Lasles__Home-content {

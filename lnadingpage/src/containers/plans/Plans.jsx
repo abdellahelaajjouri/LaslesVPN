@@ -1,6 +1,7 @@
 import React from "react";
 import "./Plans.css";
 import { Plan } from "../../components/index.js";
+import { nanoid } from "nanoid";
 
 function Plans() {
   const freePlan = [
@@ -35,9 +36,19 @@ function Plans() {
       </header>
 
       <main className="Lasles__plans-container">
-        <Plan list={freePlan} title="Free Plan" Price="Free" />
-        <Plan list={standardPlan} title="Standard Plan" Price="$9/mo" />
-        <Plan list={premiumPlan} title="premium Plan" Price="$12/mo" />
+        <Plan list={freePlan} title="Free Plan" Price="Free" key={nanoid()} />
+        <Plan
+          list={standardPlan}
+          title="Standard Plan"
+          Price="$9/mo"
+          key={nanoid()}
+        />
+        <Plan
+          list={premiumPlan}
+          title="premium Plan"
+          Price="$12/mo"
+          key={nanoid()}
+        />
       </main>
     </div>
   );

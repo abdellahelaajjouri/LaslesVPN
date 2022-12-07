@@ -12,6 +12,9 @@
 
   background: #ffffff;
 }
+.Lasles__plans-container__plan:hover {
+  border: 2px solid var(--btn-bg);
+}
 .Lasles__plans-container__plan-hero {
   margin: 2rem 0;
 }
@@ -37,6 +40,7 @@
 
 .Lasles__plans-container__plan-footer {
   margin-top: auto;
+  text-align: center;
 }
 
 .Lasles__plans-container__plan-footer__Price {
@@ -48,7 +52,7 @@
   border-radius: 50px;
 
   background-color: transparent;
-  
+
   color: var(--btn-bg);
 
   font-family: var(--font-family);
@@ -56,11 +60,10 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-
 }
 
-.Lasles__plans-container__plan-footer__button button:hover {
-background-color: var(--btn-bg);
+.Lasles__plans-container__plan-footer__button button:active {
+  background-color: var(--btn-bg);
 
   color: #ffffff;
 
@@ -69,7 +72,9 @@ background-color: var(--btn-bg);
 
 @media screen and (max-width: 1050px) {
   .Lasles__plans-container__plan {
-    margin-bottom: 1rem;
-    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding: none;
   }
 }

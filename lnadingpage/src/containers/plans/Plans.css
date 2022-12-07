@@ -7,16 +7,22 @@ p {
   color: var(--color-subtext);
 }
 .Lasles__plans {
-  text-align: center;
   font-family: var(--font-family);
+  margin-top: 40px;
 }
 .Lasles__plans-header {
+  
+  width: 30%;
+  margin: auto;
+  text-align: center;
   margin-bottom: 60px;
 }
 .Lasles__plans-header__title {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
+
+  margin-bottom: 20px;
 }
 .Lasles__plans-header__text {
   line-height: 30px;
@@ -30,12 +36,18 @@ p {
   .Lasles__plans-container {
     flex-wrap: wrap;
   }
+  .Lasles__plans-header{
+    width: 60%;
+  }
 }
 @media screen and (max-width: 700px) {
   p,
   li {
     color: var(--color-subtext);
     font-size: 1rem;
+  }
+  .Lasles__plans-header{
+    width: 90%;
   }
   .Lasles__plans-header__title {
     font-size: 30;

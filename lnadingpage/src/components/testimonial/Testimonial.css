@@ -1,0 +1,71 @@
+.Lasles__testimonials-header__content-testimonial {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 2rem;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+.Lasles__testimonials-header__content-testimonial__header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.Lasles__testimonials-header__content-testimonial__header-profile {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+}
+.Lasles__testimonials-header__content-testimonial__header-profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.Lasles__testimonials-header__content-testimonial__header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Lasles__testimonials-header__content-testimonial__header-info h3 {
+  font-weight: bold;
+  color: var(--color-text);
+}
+.Lasles__testimonials-header__content-testimonial__header-info p {
+  color: var(--color-subtext);
+}
+
+.Lasles__testimonials-header__content-testimonial__header-rating {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+}
+
+.alice-carousel.__ssr {
+}
+
+.alice-carousel__stage-item.__active {
+}
+.alice-carousel__stage-item.__cloned {
+}
+.alice-carousel__stage-item.__target {
+}
+
+.alice-carousel__next-btn-item.__inactive {
+
+}
+.alice-carousel__prev-btn-item.__inactive {
+}
+
+.alice-carousel__play-btn-item.__pause {
+}
+
+.alice-carousel__dots-item.__active {
+}
+.alice-carousel__dots-item.__custom {
+}
+
+.alice-carousel__slide-info-item.__separator {
+}

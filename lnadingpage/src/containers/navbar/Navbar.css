@@ -1,9 +1,14 @@
 .Lasles__navBar {
+  position: fixed;
   display: flex;
-  
+  width: 100%;
+
+
   justify-content: space-between;
   align-items: center;
   padding: 1rem 6rem;
+
+  background-color: var(--color-bg);
 
   font-family: var(--font-family);
 }
@@ -48,6 +53,8 @@
   border: 1px solid var(--btn-bg);
   border-radius: 50px;
   font-family: var(--font-family);
+
+  background-color: transparent;
 
   font-weight: 700;
   font-size: 16px;
