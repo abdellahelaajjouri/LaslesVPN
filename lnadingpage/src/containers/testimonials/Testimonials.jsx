@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./Testimonials.css";
+
 import { Testimonial } from "../../components/index.js";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -10,7 +12,7 @@ function Testimonials() {
       name: "Viezh Robert",
       location: "Warsaw, Poland",
       rating: "4.5",
-      imgUrl: "../../assets/testimonialRobert.svg",
+      imgUrl: require("../../assets/testimonialRobert.svg"),
       comment:
         "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
     },
@@ -18,7 +20,7 @@ function Testimonials() {
       name: "Viezh Robert",
       location: "Warsaw, Poland",
       rating: "4.5",
-      imgUrl: "../../assets/testimonialRobert.svg",
+      imgUrl: require("../../assets/testimonialRobert.svg"),
       comment:
         "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
     },
@@ -26,7 +28,7 @@ function Testimonials() {
       name: "Viezh Robert",
       location: "Warsaw, Poland",
       rating: "4.5",
-      imgUrl: "../../assets/testimonialRobert.svg",
+      imgUrl: require("../../assets/testimonialRobert.svg"),
       comment:
         "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
     },
@@ -34,7 +36,7 @@ function Testimonials() {
       name: "Viezh Robert",
       location: "Warsaw, Poland",
       rating: "4.5",
-      imgUrl: "../../assets/testimonialRobert.svg",
+      imgUrl: require("../../assets/testimonialRobert.svg"),
       comment:
         "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
     },
