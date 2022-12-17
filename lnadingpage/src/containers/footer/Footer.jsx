@@ -83,7 +83,6 @@ function Footer() {
           </li>
         </ul>
       </div>
-      
     </div>
   );
 }
