@@ -3,7 +3,7 @@ import Hero from "../../assets/home.svg";
 import "./Home.css";
 export default function Home() {
   return (
-    <div name="about" className="Lasles__Home section__padding">
+    <div id="about" className="Lasles__Home section__padding">
       <div className="Lasles__Home-content">
         <div className="Lasles__Home-content__title">
           Want anything to be easy with <span> LaslesVPN.</span>

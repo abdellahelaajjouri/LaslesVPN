@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
+  height: 230px;
   font-family: var(--font-family);
-
   padding: 2rem;
 }
 .Lasles__testimonials-header__content-testimonial__header {
@@ -42,6 +43,37 @@
 }
 
 
+@media screen and (max-width: 1050px){
+  .Lasles__testimonials-header__content-testimonial {
+    gap: 10px;
+    padding: 1rem;
+  } 
+}
+
+/* ** carousel container  */
+
+/* .alice-carousel {
+  display: grid;
+  grid-template-areas:
+    "carousel carousel carousel"
+    "dote prev next";
+}
+
+.alice-carousel div:first-child {
+  grid-area: carousel;
+}
+.alice-carousel__dots {
+  grid-area: dots;
+}
+
+.alice-carousel__prev-btn {
+  grid-area: prev;
+}
+
+.alice-carousel__next-btn {
+  grid-area: dots;
+} */
+
 /* ** carousel items ** */
 
 /* this is for all items */
@@ -60,9 +92,25 @@
 /* **  dots ** */
 
 .alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item {
+  width: 15px !important;
+  height: 15px !important;
+  background: #dde0e4 !important;
+}
+
 .alice-carousel__dots-item:not(.__custom).__active {
-  background: none;
-  background-color: black !important;
+  width: 45px !important;
+  height: 15px !important;
+  background: #f53838 !important;
+  border-radius: 10px;
+}
+
+/* *** buttons */
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn,
+.alice-carousel__dots {
+  margin-top: 30px;
 }
 
 .alice-carousel__prev-btn-item.__inactive {

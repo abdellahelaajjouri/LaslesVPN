@@ -2,6 +2,7 @@
   position: fixed;
   display: flex;
   width: 100%;
+  z-index: 99999;
 
 
   justify-content: space-between;
@@ -95,10 +96,10 @@
   -ms-border-radius: 5px;
   border-radius: 5px;
 
-  background: var(--btn-bg);
+  background: var(--color-text);
   box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 
-  color: var(--color-bg);
+  /* color: #fff; */
   text-align: end;
 }
 
@@ -107,6 +108,7 @@
 }
 .Lasles__navBar-menu__container-links li {
   margin: 1rem 0;
+  color: #ffff;
 }
 .Lasles__navBar-menu__container-buttons {
   display: flex;
@@ -116,7 +118,7 @@
 }
 .Lasles__navBar-menu__container-buttons .Sign-In {
   font-family: var(--font-family);
-
+  color: var(--color-subtext);
   align-self: flex-end;
   cursor: pointer;
 }

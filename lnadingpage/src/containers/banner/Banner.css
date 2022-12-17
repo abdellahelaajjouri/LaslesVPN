@@ -1,0 +1,88 @@
+.Lasles__banner {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 0 3rem;
+  width: 1000px;
+  height: 233px;
+  margin: auto;
+  /* margin-bottom: 2rem; */
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Lasles__banner-content {
+  flex-basis: 40%;
+}
+.Lasles__banner-content h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.Lasles__banner-content p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #4f5665;
+}
+.Lasles__banner-btn button {
+  width: 250px;
+  height: 60px;
+  background: #f53838;
+  border-radius: 10px;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+
+  color: #ffffff;
+}
+@media screen and (max-width: 1050px) {
+  .Lasles__banner {
+    width: auto;
+    margin: 0 3rem;
+  }
+  .Lasles__banner-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .Lasles__banner-content p {
+    line-height: 20px;
+  }
+  .Lasles__banner-btn button {
+    width: 150px;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Lasles__banner {
+    width: auto;
+    padding: 1.5rem;
+    height: auto;
+    text-align: center;
+    margin: 0 1.5rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    justify-content: initial;
+    gap: 20px;
+  }
+  .Lasles__banner-content h1 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .Lasles__banner-btn button {
+    height: 40px;
+
+  }
+}

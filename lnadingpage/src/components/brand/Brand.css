@@ -1,23 +1,17 @@
 .Lasles__network-content__Brands {
-  max-width: 1135px;
   margin-top: 60px;
 }
 .Lasles__network-content__Brands-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
 
-  width: 100%;
-  height: 100%;
-}
-.Lasles__network-content__Brands-container img {
-  width: 100%;
-  height: 100%;
+  
+  /* height: 100%; */
 }
 @media screen and (max-width: 1050px) {
   .Lasles__network-content__Brands-container {
-    width: 120px;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
@@ -26,7 +20,7 @@
 }
 @media screen and (max-width: 700px) {
   .Lasles__network-content__Brands-container {
-    gap: 5px;
+    gap: 20px;
     width: 80%;
   }
 }

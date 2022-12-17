@@ -10,7 +10,7 @@
   border: 2px solid #dddddd;
   border-radius: 10px;
 
-  background: #ffffff;
+  background: #F6F6F6;
 }
 .Lasles__plans-container__plan:hover {
   border: 2px solid var(--btn-bg);

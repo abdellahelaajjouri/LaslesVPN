@@ -1,67 +1,11 @@
 import React from "react";
-
 import "./Testimonials.css";
-
 import { Testimonial } from "../../components/index.js";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import data from "./data.js";
 
 function Testimonials() {
-  const testimonialsArray = [
-    {
-      name: "Viezh Robert",
-      location: "Warsaw, Poland",
-      rating: "4.5",
-      imgUrl: require("../../assets/testimonialRobert.svg"),
-      comment:
-        "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
-    },
-    {
-      name: "Viezh Robert",
-      location: "Warsaw, Poland",
-      rating: "4.5",
-      imgUrl: require("../../assets/testimonialRobert.svg"),
-      comment:
-        "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
-    },
-    {
-      name: "Viezh Robert",
-      location: "Warsaw, Poland",
-      rating: "4.5",
-      imgUrl: require("../../assets/testimonialRobert.svg"),
-      comment:
-        "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
-    },
-    {
-      name: "Viezh Robert",
-      location: "Warsaw, Poland",
-      rating: "4.5",
-      imgUrl: require("../../assets/testimonialRobert.svg"),
-      comment:
-        "“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.",
-    },
-    // {
-    //   name: "",
-    //   location: "",
-    //   rating: "",
-    //   imgUrl: "",
-    //   comment: '',
-    // },
-    // {
-    //   name: "",
-    //   location: "",
-    //   rating: "",
-    //   imgUrl: "",
-    //   comment: '',
-    // },
-    // {
-    //   name: "",
-    //   location: "",
-    //   rating: "",
-    //   imgUrl: "",
-    //   comment: '',
-    // },
-  ];
   const handleDragStart = (e) => e.preventDefault();
   const responsive = {
     0: { items: 1 },
@@ -69,8 +13,8 @@ function Testimonials() {
     1050: { items: 3 },
   };
 
-  const items = testimonialsArray.map(
-    ({ name, location, rating, imgUrl, comment }) => {
+  const items = data.map(
+    ({ name, location, rating, imgUrl, comment }, index) => {
       return (
         <Testimonial
           name={name}
@@ -78,13 +22,14 @@ function Testimonials() {
           rating={rating}
           imgUrl={imgUrl}
           comment={comment}
+          key={index}
         />
       );
     }
   );
 
   return (
-    <div className="Lasles__testimonials section__padding">
+    <div id="testimonial" className="Lasles__testimonials section__padding">
       <div className="Lasles__testimonials-header">
         <div className="Lasles__testimonials-header__title">
           Trusted by Thousands of Happy Customer

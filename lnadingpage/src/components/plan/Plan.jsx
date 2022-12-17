@@ -13,9 +13,9 @@ function Plan({ list, title, Price }) {
           {title}
         </h3>
         <div className="Lasles__plans-container__plan-content__text">
-          {list.map((item) => {
+          {list.map((item , index) => {
             return (
-              <p>
+              <p key={index}>
                 <BsCheckLg color={"#2FAB73"} size={13} /> &nbsp; &nbsp; &nbsp;{" "}
                 {item}
               </p>

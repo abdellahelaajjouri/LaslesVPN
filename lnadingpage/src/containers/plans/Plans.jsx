@@ -26,7 +26,7 @@ function Plans() {
     "Get New Features",
   ];
   return (
-    <div name="pricing" className="Lasles__plans section__margin">
+    <div id="pricing" className="Lasles__plans section__margin">
       <header className="Lasles__plans-header">
         <h1 className="Lasles__plans-header__title">Choose Your Plan</h1>
         <p className="Lasles__plans-header__text">

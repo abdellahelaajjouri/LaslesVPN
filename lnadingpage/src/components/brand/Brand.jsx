@@ -10,9 +10,7 @@ export default function Brand() {
   return (
     <div className="Lasles__network-content__Brands">
       <div className="Lasles__network-content__Brands-container">
-        <img src={Netflix} alt="Netflix logo" />
         <img src={Reddit} alt="Reddit logo" />
-        <img src={Amazon} alt="Amazon logo" />
         <img src={Discord} alt="Discord logo" />
         <img src={Spotify} alt="Spotify logo" />
       </div>

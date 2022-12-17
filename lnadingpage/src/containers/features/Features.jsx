@@ -4,7 +4,7 @@ import features from "../../assets/features.svg";
 import check from "../../assets/featuresCheck.png";
 export default function Features() {
   return (
-    <div name="features" className="Lasles__features section__padding">
+    <div id="features" className="Lasles__features section__padding">
       <div className="Lasles__features-hero">
         <img src={features} alt="features" />
       </div>
